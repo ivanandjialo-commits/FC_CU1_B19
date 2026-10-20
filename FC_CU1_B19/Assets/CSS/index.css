@@ -1,0 +1,269 @@
+
+body{
+    color: #333;
+}
+/* ===== NAVBAR ===== */
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+nav a{
+    color: #1A1A2E;
+    font-weight: bold;
+    text-align: right;
+}
+
+.collapse li a{
+    color: #1A1A2E;
+    text-align: center;
+}
+.towers{
+    color: #C9A84C;
+    font-weight: bold;
+}
+
+
+#get_touch{
+    padding: 5px;
+    width: 150px;
+   
+    background-color: #1A1A2E;
+    color: #fff;
+    border-radius: 10px;
+}
+#get_touch:hover{
+    background-color: #2D2D4E;
+}
+
+/* ===== HERO SECTION ===== */
+        .hero{
+            background-image: url(../Images/hero-bg.jpg);
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 125px 20px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+        }
+        .hero h1 {
+            color: white;
+        }
+
+        .hero p {
+            max-width: 550px;
+            margin: 20px auto;
+            color: white;
+        }
+        .hero span{
+            font-weight: bold;
+            font-size: 1.25rem;
+            
+        }
+        #button{
+            background-color: #FFFF;
+            color: #1A1A2E;
+            font-weight: bold;
+            text-decoration: none;    
+            padding: 10px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+/* ===== PROJECTS SECTION ===== */
+.project{
+    margin: 0 auto;
+    background: #fff;
+}
+img{
+    height: 300px;
+}
+.project-card{
+    border: 1px solid #E5E7EB;
+
+}
+.project-card:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project h1, h4{
+    color: #1A1A2E;
+}
+
+.project p{
+    color: #6B7280;
+}
+
+.tag{
+    background: #F0E6C8;
+    color: #8B7024;
+    width: 120px;
+    border-radius: 20px;
+    padding: 4px;
+    border: none;
+    font-weight: bold;
+}
+.tags{
+    background: #F0E6C8;
+    color: #8B7024;
+    width: 90px;
+    border-radius: 20px;
+    padding: 4px;
+    border: none;
+    font-weight: bold;
+}
+/* ===== SERVICES SECTION ===== */
+.services{
+    background-color: #F9F7F2;
+}
+.card-body{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    height: 200px;
+}
+.services i{
+    background: #1A1A2E;
+    color: #C9A84C;
+    padding: 12px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+}
+.card-content{
+    margin-top: 20px ;
+}
+
+.services h1, h4{
+    color: #1A1A2E;
+}
+.services p{
+    color: #6B7280;
+}
+/* ===== TEAM SECTION ===== */
+.team{
+    background-color: #fff;
+}
+
+.team-card{
+    background-color: #F9FAFB;
+    border: none;
+    padding: 20px;
+    height: 280px;
+    width: 350px;
+}
+
+.team .card-content{
+    background-color: #F9FAFB;
+    
+}
+
+.team i{
+    color: #C9A84C;
+    font-size: 3rem;
+}
+
+.team h1, h4{
+    color: #1A1A2E;
+}
+
+.team p{
+    color: #6B7280;
+}
+
+.role{
+    color: #C9A84C;
+    font-weight: 700;
+}
+
+.description{
+    text-align: center;
+    color: #6B7280;
+    max-width: 280px;
+}
+/* ===== CONTACT SECTION ===== */
+.contact{
+    background: #fff;
+}
+
+.contact p{
+    max-width: 400px;
+}
+
+.contact ul{
+    list-style: none;
+    padding-left: 4;
+}
+
+.contact li {
+    color: #374151;
+    font-size: 1rem;
+    padding: 8px 0;
+    position: relative;
+    padding-left: 28px;
+}
+
+.contact li:before{
+    content: "\2713";
+    color: #fff;
+    background-color: #C9A84C;
+    border-radius: 100%;
+    padding: 3px;
+    font-weight: 700px;
+    left: 0;
+}
+form{
+    background: #F9FAFB;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+input{
+    border: solid #D1D5DB;
+    border-color: #C9A84C;
+    box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
+}
+
+label{
+    color: #374151;
+}
+
+.contact button{
+    background: #1A1A2E;
+    color: #fff;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.contact button:hover{
+    background: #2D2D4E;
+}
+/* ===== FOOTER ===== */
+footer{
+    background-color: #1A1A2E;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer span{
+        color: #C9A84C;
+}
+footer a{
+    text-decoration: none;
+    color: #9CA3AF;
+}
+footer a:hover{
+    color: #fff;
+}
+
+footer p{
+    color: #6B7280;
+}
+
+/* ===== RESPONSIVE ===== */
+
+
+
